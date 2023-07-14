@@ -15,6 +15,7 @@ struct ContentView: View {
         ZStack {
             Color(.systemGray)
                 .ignoresSafeArea()
+            
             VStack(spacing: 20) {
                 Text("Hi, I'm Karen :)")
                     .font(.largeTitle)
